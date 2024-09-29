@@ -8,7 +8,7 @@ publish:
 	poetry publish --dry-run
 
 package-install:
-	pipx install dist/*.whl
+	pipx install --force dist/*.whl
 
 brain-games:
 	poetry run brain-games
