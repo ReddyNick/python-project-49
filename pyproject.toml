@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "This package contains simple arithmetic games."
+authors = ["Nikita"]
+repository = "https://github.com/ReddyNick/python-project-49"
 readme = "README.md"
+classifiers = [
+  "Topic :: Games/Entertainment :: Puzzle Games",
+]
 packages = [
   { include = "brain_games" },
 ]
