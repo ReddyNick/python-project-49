@@ -7,3 +7,15 @@ This repo contains simple arithmetic games.
 Requirements
 - python ^3.12
 - [pipx](https://pipx.pypa.io/stable/installation/) (to install the cli application)
+
+To install do
+```
+make build
+make package-install
+```
+
+There are five games total **brain-even**, **brain-calc**, **brain-gcd**, **brain-progression**, **brain-prime**. \
+To run a game install the package and just print it name
+```
+brain-calc
+```
